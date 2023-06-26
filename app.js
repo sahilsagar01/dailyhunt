@@ -187,6 +187,6 @@ app.post("/work" , function(req , res) {
 app.get("/about" , function(req,res) {
     res.render("about");
 })
-app.listen(3000 , function(){
+app.listen(3001 , function(){
     console.log("server is starter on port 3000.")
 });
